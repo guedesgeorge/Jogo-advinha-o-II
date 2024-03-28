@@ -1,0 +1,188 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  background: linear-gradient(45deg, #190361, #bb00ff);
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+  background-repeat: no-repeat;
+  height: 100vh;
+  place-items: center;
+  display: grid;
+
+}
+
+
+main {
+  border-radius: 0.5rem;
+  background: #FFFFFF;
+  box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.80);
+  display: flex;
+  width: 42.8rem;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  justify-content: center;
+  align-items: center;
+
+  width: min(42.8rem, 90%);
+  
+  
+}
+
+h1 {
+  color: #34355B;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  margin-bottom: 1.4rem;
+}
+
+p{
+  color: #34355B;
+  text-align: center;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 2.6rem;
+}
+
+.cookie {
+  width: 24.8rem;
+  height: 19.1rem;
+  cursor: pointer;
+  animation: vibrate 0.7s linear infinite both;
+  
+}
+
+
+.hide{
+  display: none;
+}
+
+/*screen2*/
+
+
+h2 {
+  color: #34355B;
+
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-size: 2.4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 2.7rem;
+}
+
+#verse {
+
+  width: 27.3rem;
+  color: #000;
+
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 1.6rem;
+  margin-bottom: 6rem;
+
+  background: #E4EDF1;
+  box-shadow: 2rem 2rem 2rem 0 rgba(168, 167, 167, 0.5);
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  animation: appear 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+.bisaberto {
+  display: flex;
+  width: 30rem;
+  height: 11.4rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5.9rem;
+
+}
+
+button {
+  display: flex;
+  padding: 1.6rem;
+  margin-left: 6.3rem;
+  gap: 1rem;
+  margin-top: 5.9rem;
+  
+  
+
+  border-radius: .4rem;
+  background: #FF9500;
+  border: none;
+  color: #FFF;
+
+  font-family: 'DM Sans', sans-serif;
+  color: #FFF;
+
+  
+  
+  
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+  transition: background .3s;
+}
+
+button:hover {
+  background: #fdb043c8; 
+}
+@keyframes vibrate {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, 2px);
+  }
+  80% {
+    transform: translate(2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+@keyframes appear {
+  from {
+    scale: 0;
+    transform-origin: 50% 200%;
+  }
+
+  to {
+    scale: 1;
+    transform-origin: 50% 200%;
+  }
+}
+
+
+
